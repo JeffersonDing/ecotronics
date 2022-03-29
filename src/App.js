@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useLocation } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
@@ -7,12 +7,13 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
+  const location = useLocation();
   return (
     <>
       <header>
         <Header />
       </header>
-      <Routes>
+      <Routes location={location}>
         <Route exact path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
