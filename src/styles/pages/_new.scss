@@ -1,0 +1,13 @@
+#new{
+    .form-container{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+    }
+    .form-group{
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 
 import Home from './pages/Home';
+import New from './pages/New';
 import NotFound from './pages/404';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -15,6 +16,7 @@ function App() {
       </header>
       <Routes location={location}>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="/new" element={<New />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <footer>
