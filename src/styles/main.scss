@@ -3,23 +3,47 @@
 // variables
 
 // page-specific styles
-@import './pages/App';
+@import './pages/home';
+@import './pages/new';
+@import './pages/status';
+@import './pages/success';
+@import './pages/print';
+@import './pages/404';
 
 // fonts
 @import 'fonts';
 
 // base styles
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.horizontal-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: ibm;
+  src: url('./webfonts/IBM_BIOS.woff') format('woff');
+}
+
+html * {
+  font-family: 'ibm';
+  letter-spacing: -1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACAQMAAABIeJ9nAAAABlBMVEWqqqpVVVWzGxUgAAAADElEQVQI12NwYHIAAAEIAIPJpZSRAAAAAElFTkSuQmCC);
+}
+::-webkit-scrollbar-track {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAACAQMAAABFZu8gAAAABlBMVEUAqqoAAAC9JseZAAAADElEQVQI12N4wHQBAAN4AbOxhpasAAAAAElFTkSuQmCC);
+}
+::-webkit-scrollbar-corner {
+    background: #555;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::selection {
+  background-color: rgba(111, 111, 111, 0.75);
+  color: #000;
 }
