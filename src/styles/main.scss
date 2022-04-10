@@ -4,11 +4,11 @@
 
 // page-specific styles
 @import './pages/home';
+@import './pages/info';
+@import './pages/contact';
 @import './pages/new';
-@import './pages/status';
-@import './pages/success';
-@import './pages/print';
 @import './pages/404';
+@import './components/header';
 
 // fonts
 @import 'fonts';
@@ -29,6 +29,10 @@
 html * {
   font-family: 'ibm';
   letter-spacing: -1px;
+}
+
+body {
+  margin:0
 }
 
 ::-webkit-scrollbar-thumb {
