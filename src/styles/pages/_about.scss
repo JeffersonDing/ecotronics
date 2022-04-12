@@ -1,0 +1,60 @@
+#about{
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        animation: rotation 2s infinite linear;
+    } 
+    .roatate{
+    -webkit-animation:rotate 4s linear infinite;
+    -moz-animation:rotate 4s linear infinite;
+    animation:rotate 4s linear infinite;
+ }
+
+ @-moz-keyframes rotate { 100% { -moz-transform: rotate(360deg); } }
+ @-webkit-keyframes rotate { 100% { -webkit-transform: rotate(360deg); } }
+ @keyframes rotate { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+    h1{
+        text-align: center;
+    }
+    .about-content{
+        div {
+            h2{
+                text-align: center;
+                h2{
+                    font-size: 1.4rem;
+                    color:red;
+                }
+            }
+        }
+        margin:2rem;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        padding: 1rem;
+        border: 1px solid #000;
+    }
+    .check-container{
+        .checkbox{
+            display: flex;
+            flex-direction: row;
+        }
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin:2rem;
+    font-size: 1.5rem;
+    #check{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right:1rem;
+    }
+    }
+    a{
+                    margin-top: 1rem;
+        button{
+        padding: .5rem;
+        }
+    }
+}

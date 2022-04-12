@@ -36,7 +36,7 @@ function Home() {
         <h2>UCC BH Electronics Drive </h2>
       </span>
       <div id="entry-button">
-        <Link to="new">Enter Now...</Link>
+        <Link to="about">Enter Now...</Link>
         <p className="blinker"></p>
       </div>
     </div>

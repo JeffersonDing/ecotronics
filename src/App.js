@@ -6,6 +6,7 @@ import New from './pages/New';
 import NotFound from './pages/404';
 import Info from './pages/Info';
 import Contact from './pages/Contact';
+import About from './pages/About';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/new" element={<New />} />
         <Route exact path="/info/:id" element={<Info />} />
         <Route exact path="/info" element={<Info />} />
+        <Route exact path="/about" element={<About />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

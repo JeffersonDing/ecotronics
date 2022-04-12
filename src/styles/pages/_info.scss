@@ -1,0 +1,70 @@
+#print-button {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        margin: 1rem;
+        padding: .5rem;
+    }
+}
+#info{
+
+    #noq{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+    }
+
+.flex-horizontal{
+    margin:1rem;
+    margin-top:.2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.instructions{
+    flex: 1 1;
+    padding:.8rem;
+    word-wrap: break-word;
+    li{
+            margin-bottom:1.5rem;
+    }
+}
+}
+.print-container{
+    padding:.6rem;
+    border: 1px solid #000;
+    width:100%;
+    display:flex;
+    flex: 1 1;
+    flex-direction:column;
+    justify-content:center;
+    word-break: break-all;
+    align-items:center;
+    font-size:.5rem;
+    .basic-info{
+        margin-top:.5rem;
+        padding: .2rem;
+        border: 1px solid #000;
+        display:flex;
+        flex-direction:column;
+    }
+    .device-info{
+        margin-top:.5rem;
+        padding: .2rem;
+        display: flex;
+        border: 1px solid #000;
+        flex-direction: column;
+    }
+    .pending{
+        font-size: 1rem;
+        color:red;
+    }
+    .updated{
+        font-size: 1rem;
+        color:#207f00;
+    }
+}

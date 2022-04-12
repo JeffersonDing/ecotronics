@@ -91,7 +91,7 @@ const New = () => {
     } else {
       setError(<p>Submitting...</p>);
       addData(info).then((data) => {
-        navigate(`/success/${data.id}`);
+        navigate(`/info/${data.id}`);
       });
     }
   };
