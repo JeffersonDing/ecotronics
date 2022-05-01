@@ -59,6 +59,20 @@
         border: 1px solid #000;
         flex-direction: column;
     }
+    .additional-info{
+        margin-top:.5rem;
+        padding: .2rem;
+        display: flex;
+        border: 1px solid #000;
+        flex-direction: column;
+        ul{
+            margin: 0;
+            li{
+                font-size:.7rem;
+                margin-top: .2rem;
+            }
+        }
+    }
     .pending{
         font-size: 1rem;
         color:red;

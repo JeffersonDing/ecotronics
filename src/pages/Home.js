@@ -32,8 +32,8 @@ function Home() {
         <p>{generateGibberish()}</p>
       </div>
       <span className="title">
-        <h1>Ecotronics 2022</h1>
-        <h2>UCC BH Electronics Drive </h2>
+        <h1>Electronics Drive 2022</h1>
+        <h2>May 2nd - 13th</h2>
       </span>
       <div id="entry-button">
         <Link to="about">Enter Now...</Link>

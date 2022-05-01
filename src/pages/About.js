@@ -9,17 +9,43 @@ const About = () => {
       <h1>About</h1>
       <div className="about-content">
         <p>
-          Et esse voluptate dolore eu elit cupidatat magna id est nostrud
-          labore. Et qui in ipsum exercitation aliqua deserunt pariatur esse
-          tempor cupidatat fugiat est consequat. Irure aliquip dolore deserunt
-          anim nisi eu esse. Dolor elit magna ipsum anim nisi do sint non esse
-          consequat reprehenderit laboris. Fugiat cillum id est occaecat
-          adipisicing esse quis Lorem pariatur.
+          Welcome to the UCC x BH 2022 electronics drive. Although COVID is
+          still very much a part of our lives, with the number of vaccinations
+          increasing each day, we hope to take this opportunity to give back to
+          our communities.
         </p>
         <p>
-          Qui magna laboris do sint ad occaecat non nostrud anim reprehenderit
-          irure. Aute esse consectetur duis ex exercitation aliqua cillum elit
-          aliqua aliqua elit proident. Tempor aliquip id quis ea do quis.
+          This year our project focuses on donating electronics for the purpose
+          of charity with refurbishment in mind. You might think this is just
+          any charitable drive, but there&apos;s a twist; this is no ordinary
+          charity drive where you drop off your item and forget about it. The
+          electronics drive is accepting anything related to technology whether
+          that be your old iPhone, keyboard, mouse, or whole computer.
+        </p>
+        <p>
+          Every item that you submit will also be required to have a printed QR
+          code attached to it (this will be important for later). The QR code
+          will allow us to access the basic information of the item you
+          submitted such as the device type, brand, and condition (you will fill
+          in a form latter).
+        </p>
+        <p>
+          This enables us to track incomming donations and award prizes to
+          students who donated the most. The QR codes mentioned previously come
+          into play when at the end of the drive a raffle takes place.
+          Obviously, the more items you submit, the higher your chances are of
+          winning the raffle prize.
+        </p>
+        <p className="textbf">
+          If you bring in a device that&apos;s in perfect condition, you will
+          recieve 5 entries to the raffle; if it&apos;s needs some clean-up or
+          refurbishing, you will recieve 3 entries; even if you bring in a
+          device that e-waste, you can still get 1 entry to the raffle!
+          It&apos;s important to properly recycle e-waste.
+        </p>
+        <p>
+          We&apos;ve decided that this year&apos;s prize will be a brand new
+          pair of Apple 3rd gen AirPods!
         </p>
         <div>
           <img className="roatate" src={AirPods} alt="AirPods" />
@@ -29,42 +55,17 @@ const About = () => {
         </div>
 
         <p>
-          Sunt occaecat eu laborum exercitation enim amet voluptate cillum
-          consequat voluptate tempor et. Exercitation ullamco nulla elit Lorem
-          nostrud magna nostrud laboris culpa laborum non. Laboris anim magna in
-          aute non aliqua voluptate mollit excepteur consequat eu non. Et aliqua
-          magna eiusmod pariatur aliqua labore Lorem. Commodo enim tempor aute
-          id veniam amet voluptate commodo cillum. Aute non ut magna ex. Sit
-          velit commodo enim aute sunt pariatur ipsum deserunt in commodo nulla
-          cupidatat aliquip irure.
+          As mentioned, refurbishment is one of the main aspects of this drive
+          as well: all items that are deemed not suitable to be donated straight
+          away will be put aside for potential refurbishing. Members of the UCC
+          electronics club will gain volunteer hours for their contributions to
+          helping refurbish used technology.
         </p>
         <p>
-          Laborum ullamco dolor deserunt culpa cupidatat pariatur amet ad velit
-          pariatur mollit nostrud dolor reprehenderit. In sunt est aliqua sit
-          irure commodo adipisicing Lorem esse. Exercitation Lorem enim sint
-          tempor pariatur deserunt. Ut voluptate cillum voluptate consequat.
-          Occaecat culpa aliquip Lorem ex esse sint nostrud.
-        </p>
-        <p>
-          Dolore cillum magna voluptate proident magna enim reprehenderit. Anim
-          ut deserunt velit est magna magna quis eiusmod adipisicing. Deserunt
-          aute eu do incididunt aliquip sunt nulla proident officia veniam ex in
-          aute proident. Quis cupidatat qui minim cillum occaecat occaecat est
-          excepteur ea ipsum dolor. Id irure fugiat est aliquip laborum magna
-          sint dolor dolore dolore id culpa deserunt. Ad elit consequat Lorem
-          veniam minim consectetur eu sint.
-        </p>
-        <p>
-          Lorem proident pariatur deserunt cupidatat eiusmod dolore dolor
-          occaecat Lorem elit quis nisi irure reprehenderit. Dolore et esse elit
-          magna sunt sit adipisicing est duis exercitation nostrud.
-          Reprehenderit officia ullamco in sint laborum exercitation eiusmod
-          magna proident mollit magna cupidatat. Laboris magna ea in consequat
-          enim proident exercitation duis. Commodo veniam commodo do esse ad
-          consequat eiusmod dolore ad eiusmod voluptate est officia ipsum.
-          Excepteur aliqua esse irure excepteur enim enim adipisicing duis
-          nostrud amet eiusmod aliqua consequat. Nulla eiusmod dolor consectetur
-          ipsum quis.
+          By continuing to the submission form, you agree to comply with the
+          electronics drive&apos;s rules and the Organizers of the drive will
+          have the right to remove your entry from the raffle if you do not
+          comply. The organizers are the Final Decision-Making Authority.
         </p>
       </div>
       <div className="check-container">

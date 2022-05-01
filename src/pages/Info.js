@@ -67,6 +67,16 @@ const Info = () => {
               <h2>Brand:{data.brand} </h2>
               <h2>Condition:{data.condition} </h2>
             </div>
+            {data.additional && (
+              <div className="additional-info">
+                <h2>Additional Information:</h2>
+                <ul>
+                  {data.additional.map((item, index) => {
+                    return <li key={index}>{item}</li>;
+                  })}
+                </ul>
+              </div>
+            )}
             <h2
               id="status"
               className={data.status == 'Pending' ? 'pending' : 'updated'}
@@ -100,6 +110,10 @@ const Info = () => {
               <li>
                 Winners will be contacted via email and displayed on the
                 website.
+              </li>
+              <li>
+                You can save this URL to lookup your devices status later. But
+                we will contact you via email once we update anything.
               </li>
             </ol>
           </div>

@@ -67,6 +67,21 @@
                 outline:none;
             }
         }
+        textarea{
+            padding: .45rem;
+            width: 100%;
+            background-color: #000;
+            border:none;
+            margin: 0;
+            color: #41FF00;
+            &:focus{
+                outline:none;
+            }
+            &::placeholder{
+                color: #EEEEEE;
+            }
+
+        }
         
         select {
             width: 100%;

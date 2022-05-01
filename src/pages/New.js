@@ -29,6 +29,7 @@ const New = () => {
     device: 'Laptop',
     brand: '',
     condition: 'Good',
+    additional: '',
     status: 'Pending',
   });
   const [gibberish, setGibberish] = useState('');
@@ -90,7 +91,8 @@ const New = () => {
       );
     } else {
       setError(<p>Submitting...</p>);
-      addData(info).then((data) => {
+      const data = { ...info, additional: info.additional.split('\n') };
+      addData(data).then((data) => {
         navigate(`/info/${data.id}`);
       });
     }
@@ -107,7 +109,7 @@ const New = () => {
       <div className="form-container">
         <div className="form-group">
           <div>
-            <label htmlFor="fname">Full Name:</label>
+            <label htmlFor="fname">* Full Name:</label>
             <div className="input-container">
               <p>$</p>
               <input
@@ -119,7 +121,7 @@ const New = () => {
             </div>
           </div>
           <div>
-            <label htmlFor="lname">Email:</label>
+            <label htmlFor="lname">* Email:</label>
             <div className="input-container">
               <p>$</p>
               <input
@@ -131,7 +133,7 @@ const New = () => {
             </div>
           </div>
           <div>
-            <label htmlFor="school">School:</label>
+            <label htmlFor="school">* School:</label>
             <select
               name="school"
               value={info.school}
@@ -142,7 +144,7 @@ const New = () => {
             </select>
           </div>
           <div>
-            <label htmlFor="dtype">Device Type:</label>
+            <label htmlFor="dtype">* Device Type:</label>
             <select
               name="dtype"
               value={info.device}
@@ -160,7 +162,7 @@ const New = () => {
             </select>
           </div>
           <div>
-            <label htmlFor="fbrand">Brand:</label>
+            <label htmlFor="fbrand">* Brand:</label>
             <div className="input-container">
               <p>$</p>
               <input
@@ -173,7 +175,7 @@ const New = () => {
             </div>
           </div>
           <div>
-            <label htmlFor="condition">Condition:</label>
+            <label htmlFor="condition">* Condition:</label>
             <select
               name="condition"
               value={info.condition}
@@ -184,6 +186,21 @@ const New = () => {
               <option value="Poor">Poor</option>
               <option value="NotWorking">Not Working</option>
             </select>
+          </div>
+          <div>
+            <label htmlFor="additional">
+              Additional Notes (You can list additional devices in this field if
+              you plan on donating more than one device at once):
+            </label>
+            <textarea
+              type="textarea"
+              name="additional"
+              placeholder="e.g. Apple iPad Pro, Mint Condition"
+              rows={4}
+              cols={50}
+              value={info.additional}
+              onChange={(e) => setInfo({ ...info, additional: e.target.value })}
+            />
           </div>
           <div>
             <button onClick={handleSubmit}>Submit</button>
