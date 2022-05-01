@@ -188,10 +188,11 @@ const New = () => {
             </select>
           </div>
           <div>
-            <label htmlFor="additional">
-              Additional Notes (You can list additional devices in this field if
-              you plan on donating more than one device at once):
-            </label>
+            <label htmlFor="additional">Additional Notes :</label>
+            <p className="prompt">
+              You can list additional devices in this field if you plan on
+              donating more than one device at once
+            </p>
             <textarea
               type="textarea"
               name="additional"

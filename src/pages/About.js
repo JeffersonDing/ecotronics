@@ -40,7 +40,7 @@ const About = () => {
           If you bring in a device that&apos;s in perfect condition, you will
           recieve 5 entries to the raffle; if it&apos;s needs some clean-up or
           refurbishing, you will recieve 3 entries; even if you bring in a
-          device that e-waste, you can still get 1 entry to the raffle!
+          device that is e-waste, you can still get 1 entry to the raffle!
           It&apos;s important to properly recycle e-waste.
         </p>
         <p>
