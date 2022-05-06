@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.fe3819bc.css",
-    "main.js": "/static/js/main.48817ba4.js",
+    "main.js": "/static/js/main.4d45ab03.js",
     "static/media/IBM_BIOS.woff": "/static/media/IBM_BIOS.8ac8db22249d630e5336.woff",
     "static/media/airpods.png": "/static/media/airpods.73e5ffe953e2a46ac27b.png",
     "index.html": "/index.html",
     "main.fe3819bc.css.map": "/static/css/main.fe3819bc.css.map",
-    "main.48817ba4.js.map": "/static/js/main.48817ba4.js.map"
+    "main.4d45ab03.js.map": "/static/js/main.4d45ab03.js.map"
   },
   "entrypoints": [
     "static/css/main.fe3819bc.css",
-    "static/js/main.48817ba4.js"
+    "static/js/main.4d45ab03.js"
   ]
 }
