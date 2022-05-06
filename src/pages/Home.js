@@ -33,7 +33,7 @@ function Home() {
       </div>
       <span className="title">
         <h1>Electronics Drive 2022</h1>
-        <h2>May 2nd - 13th</h2>
+        <h2>May 9th - 20th</h2>
       </span>
       <div id="entry-button">
         <Link to="about">Enter Now...</Link>
